@@ -87,7 +87,9 @@
 								echo ($shortcode=='wp_current_user_id') ? 'id=' : '';
 								echo ($shortcode=='wp_current_user_name') ? 'username=' : '';
 								echo ($shortcode=='wp_current_user_email') ? 'email=' : '';
-								echo "<code>[$shortcode]</code><br>";
+								echo "<code>[$shortcode]</code>";
+								echo ($shortcode=='wp_bloginfo_url') ? ' (do not use the \'url\' tag. It is used by sentry already.)' : '';
+								echo "<br>";
 							}	
 						?>
 					</td>
