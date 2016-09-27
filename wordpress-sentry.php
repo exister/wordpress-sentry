@@ -1,7 +1,7 @@
 <?php
 
 /*
-  Plugin Name: WordPress Sentry Client
+  Plugin Name: WordPress Sentry Client (forked to kinged007)
   Plugin URI: http://www.hzdg.com
   Description: Sends PHP errors to Django Sentry
   Author: Ryan Bagwell
