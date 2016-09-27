@@ -4,9 +4,9 @@
   Plugin Name: WordPress Sentry Client
   Plugin URI: http://www.hzdg.com
   Description: Sends PHP errors to Django Sentry
-  Author: Ryan Bagwell, Joshua Barnard
-  Version: 1.3
-  Author URI: http://www.ryanbagwell.com, http://digitalsorcery.io
+  Author: Ryan Bagwell
+  Version: 1
+  Author URI: http://www.ryanbagwell.com
  */
 
 require_once( dirname(__FILE__) . '/class.wp-raven-client.php' );
