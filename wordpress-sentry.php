@@ -7,6 +7,8 @@
   Author: Ryan Bagwell
   Version: 1
   Author URI: http://www.ryanbagwell.com
+  GitHub Plugin URI: https://github.com/exister/wordpress-sentry
+  GitHub Branch: master
  */
 
 require_once( dirname(__FILE__) . '/class.wp-raven-client.php' );
